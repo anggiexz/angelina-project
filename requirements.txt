@@ -2,5 +2,4 @@ numpy==1.26.4
 pandas==2.2.1
 streamlit
 matplotlib
-FuncFormatter
 pip==22.0.3
