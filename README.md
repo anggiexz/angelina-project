@@ -1,7 +1,9 @@
-# Welcome to streamlit
+#Setup environment
 
-This is the app you get when you run `streamlit hello`, extracted as its own app.
+conda create --name main-ds python=3.11.8
+conda activate main-ds
+pip install numpy pandas matplotlib jupyter streamlit 
 
-Edit [Hello.py](./Hello.py) to customize this app to your heart's desire. ❤️
+#Run steamlit app
 
-Check it out on [Streamlit Community Cloud](https://st-hello-app.streamlit.app/)
+streamlit run Hello.py
